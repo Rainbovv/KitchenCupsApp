@@ -36,6 +36,6 @@ public class Cup {
 	/////////////////////////////////  OUTPUT  /////////////////////////////////
 	public void printInfo(){
 		System.out.printf("This cup contains %d ml of %s at %d\u2103%n",
-					       liquid.getVolume(), liquid.getName(), liquid.getTemperature());
+				   liquid.getVolume(), liquid.getName(), liquid.getTemperature());
 	}
 }
