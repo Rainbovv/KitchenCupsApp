@@ -29,7 +29,7 @@ public class Liquid {
 
     public void setVolume(int volume) {
         if (volume <= 0)
-                System.err.println("The volume should be more than \"0\"");
+            System.err.println("The volume should be more than \"0\"");
         if (maxVolume != 0 && volume > maxVolume)
             System.err.printf("This cup can't contain more than %dml of liquid!%n", getMaxVolume());
         else
