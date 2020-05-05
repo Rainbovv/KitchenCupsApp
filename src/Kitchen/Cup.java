@@ -5,8 +5,8 @@ import World.*;
 public class Cup {
 	
 	// PROPERTIES
-    	private final int MAX_VOLUME = 600;
-		protected Liquid liquid;
+	private final int MAX_VOLUME = 600;
+	protected Liquid liquid;
 
     
     ///////////////////////////////  CONSTRUCTOR  ///////////////////////////////   
@@ -36,6 +36,6 @@ public class Cup {
 	/////////////////////////////////  OUTPUT  /////////////////////////////////
 	public void printInfo(){
 		System.out.printf("This cup contains %d ml of %s at %d\u2103%n",
-				   liquid.getVolume(), liquid.getName(), liquid.getTemperature());
+				           liquid.getVolume(), liquid.getName(), liquid.getTemperature());
 	}
 }
