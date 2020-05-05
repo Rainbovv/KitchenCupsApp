@@ -47,6 +47,7 @@ public class Liquid {
         this.maxVolume = maxVolume;
     }
 
+    
     ///////////////////////////  GETTERS  ///////////////////////////
     public String getName() {
         return name;
