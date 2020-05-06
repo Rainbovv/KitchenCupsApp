@@ -1,6 +1,6 @@
-package Kitchen;
+package kitchen;
 
-import World.*;
+import world.*;
 
 public class SmallCup extends Cup {
 

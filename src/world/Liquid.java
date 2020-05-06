@@ -1,4 +1,4 @@
-package World;
+package world;
 
 public class Liquid {
 
@@ -76,5 +76,11 @@ public class Liquid {
 
     public boolean isHot(){
         return (temperature > 36);
+    }
+
+    /////////////////////////////////  OUTPUT  /////////////////////////////////
+    public void printInfo(){
+        System.out.printf("This cup contains %d ml of %s at %d\u2103%n",
+                           getVolume(), getName(), getTemperature());
     }
 }
