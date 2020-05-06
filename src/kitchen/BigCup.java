@@ -12,7 +12,6 @@ public class BigCup extends Cup {
 
 	@Override
 	public void setLiquid(Liquid liquid) {
-		liquid.setMaxVolume(MAX_VOLUME);
 
 		if (liquid.getVolume() > MAX_VOLUME)
 			System.err.printf("This cup can't contain more than %dml of liquid!%n", MAX_VOLUME);

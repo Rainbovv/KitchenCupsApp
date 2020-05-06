@@ -3,7 +3,6 @@ package world;
 public class Liquid {
 
     // Properties
-    private int maxVolume;
     private String name;
     private int volume;
     private int temperature;
@@ -30,8 +29,6 @@ public class Liquid {
     public void setVolume(int volume) {
         if (volume <= 0)
             System.err.println("The volume should be more than \"0\"");
-        if (maxVolume != 0 && volume > maxVolume)
-            System.err.printf("This cup can't contain more than %dml of liquid!%n", getMaxVolume());
         else
             this.volume = volume;
     }
@@ -43,9 +40,6 @@ public class Liquid {
             this.temperature = temperature;
     }
 
-    public void setMaxVolume(int maxVolume) {
-        this.maxVolume = maxVolume;
-    }
 
     
     ///////////////////////////  GETTERS  ///////////////////////////
@@ -61,9 +55,6 @@ public class Liquid {
         return temperature;
     }
 
-    public int getMaxVolume() {
-        return maxVolume;
-    }
 
     // Liquid temperature checking methods.
     public boolean isCold(){

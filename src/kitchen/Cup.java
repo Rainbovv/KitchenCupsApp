@@ -29,7 +29,6 @@ public class Cup {
 			System.err.printf("This cup can't contain more than %dml of liquid!%n", MAX_VOLUME);
 		else
 			this.liquid = liquid;
-			liquid.setMaxVolume(MAX_VOLUME);
 	}
 	
 	

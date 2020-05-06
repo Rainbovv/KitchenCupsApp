@@ -21,5 +21,7 @@ public class Application {
 
 		bigCup.printInfo();
 		System.out.println(LiquidTester.isDrinkable(bigCup));
+
+
 	}
 }
